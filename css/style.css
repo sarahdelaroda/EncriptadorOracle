@@ -63,9 +63,18 @@ footer{
 .ingresara{
     resize:none;
     width: 100%;
-    border:solid var(--primario);
+    border:none;
     background-color: var(--fondo);
+    font-size: 2rem;
+    font-weight:500;
+    margin: 5px 15px;
+    
    
+}
+
+.ingresar-contenedor{
+    border:solid var(--primario) 2px;
+
 }
 
 .section-2{
@@ -74,6 +83,8 @@ footer{
 .resul-textarea{
    border: none ;
    resize:none;
+   font-size: 2rem;
+   margin: 0px 20px;
 }
 
 .btn1{
@@ -99,3 +110,4 @@ footer{
     text-transform: uppercase;
     color: var(--primario);
 }
+
