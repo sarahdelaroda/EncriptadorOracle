@@ -76,3 +76,26 @@ footer{
    resize:none;
 }
 
+.btn1{
+    border: none;
+    background-color: var(--primario);
+    color: white;
+
+}
+
+.btn2{
+    border:solid var(--primario) 1px;
+    background-color: var(--fondo);
+    color: var(--primario);
+}
+
+.btn1, .btn2{
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    padding: 10px 0px;
+}
+
+.boton-copiar{
+    text-transform: uppercase;
+    color: var(--primario);
+}
