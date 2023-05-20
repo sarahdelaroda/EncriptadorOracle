@@ -51,8 +51,17 @@ footer{
 .botones{
     display: flex;
     flex-direction: column;
+    gap:1rem;
 }
 
 .ingresara{
     width: 100%;;
+}
+
+.section-2{
+    padding-bottom: 1rem;
+}
+
+.boton-copiar{
+    margin-top: 1rem;
 }
