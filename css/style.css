@@ -1,0 +1,58 @@
+:root {
+    --fondo:#F3F5FC;
+    --primario:#0A3871;
+    --secundario:#D8DFE8;
+    --advertencia: #495057;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box; /* Hack para Box Model **/
+    /*scroll-snap-type: y mandatory;*/
+    min-height: 100vh
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    background-color: var(--fondo);
+    font-size: 1.6rem;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+footer{
+    text-align: center;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    background-color: var(--primario);
+    color:var(--secundario);
+}
+
+.instrucciones{
+    display: grid;
+    grid-template-columns: 5% 95%
+}
+
+.img-warning{
+   display: flex;
+   align-items: center; /*Centrar verticalmente cuando se activa flex*/
+   /* justify-content: center; Centrar horizontalmente cuando se activa flex*/
+}
+
+.resultados-area{
+    display:flex;
+    flex-direction: column;
+}
+
+.botones{
+    display: flex;
+    flex-direction: column;
+}
+
+.ingresara{
+    width: 100%;;
+}
