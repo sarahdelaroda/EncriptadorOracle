@@ -46,6 +46,12 @@ footer{
 .resultados-area{
     display:flex;
     flex-direction: column;
+    gap:2rem;
+    border: solid white;
+    background-color: white;
+    border-radius: 2rem;
+    padding: 20px 0px;
+
 }
 
 .botones{
@@ -55,13 +61,18 @@ footer{
 }
 
 .ingresara{
-    width: 100%;;
+    resize:none;
+    width: 100%;
+    border:solid var(--primario);
+    background-color: var(--fondo);
+   
 }
 
 .section-2{
     padding-bottom: 1rem;
 }
-
-.boton-copiar{
-    margin-top: 1rem;
+.resul-textarea{
+   border: none ;
+   resize:none;
 }
+
