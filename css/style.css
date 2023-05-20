@@ -67,13 +67,14 @@ footer{
     background-color: var(--fondo);
     font-size: 2rem;
     font-weight:500;
-    margin: 5px 15px;
+    
     
    
 }
 
 .ingresar-contenedor{
     border:solid var(--primario) 2px;
+    padding: 5px 15px;
 
 }
 
