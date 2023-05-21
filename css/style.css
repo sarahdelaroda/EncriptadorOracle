@@ -50,14 +50,8 @@ footer{
     border: solid white;
     background-color: white;
     border-radius: 2rem;
-    padding: 20px 0px;
+    padding: 10px 10px;
 
-}
-
-.botones{
-    display: flex;
-    flex-direction: column;
-    gap:1rem;
 }
 
 .ingresara{
@@ -67,9 +61,6 @@ footer{
     background-color: var(--fondo);
     font-size: 2rem;
     font-weight:500;
-    
-    
-   
 }
 
 .ingresar-contenedor{
@@ -112,3 +103,27 @@ footer{
     color: var(--primario);
 }
 
+/* Media Queries*/
+
+
+/*.botones{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}*/
+
+@media (min-width:468px){
+    .botones{
+        display: flex;
+        flex-direction: column;
+        gap:1rem;
+    }
+}
+
+@media (min-width:768px){
+    .botones{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:1rem;
+    }
+}
