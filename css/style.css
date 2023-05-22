@@ -127,3 +127,19 @@ footer{
         gap:1rem;
     }
 }
+
+@media (min-width:1050px){
+    .contenedor{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 80% 20%;
+        gap:2rem;
+    }
+
+    .section-2{
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+
+}
+
