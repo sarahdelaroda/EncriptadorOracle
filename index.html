@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador Oracle</title>
     <link rel="stylesheet" href="css/style.css" as="style">
+    
 </head>
 <body>
     <header>
@@ -19,7 +20,7 @@
             <div class="contenedor">
                 <!--Seccion donde se lee el codigo-->
                 <div class="ingresar-contenedor">
-                    <textarea class="ingresara" name="" id="" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+                    <textarea class="ingresara" name="ingresara-area" id="ingresar-area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
                 </div>
                 <!--Seccion donde se encuentran los botones-->
                 <div class="section-2">
@@ -34,13 +35,15 @@
                         </div> 
                     </div>
                     <div class="botones">
-                        <input class="btn1" type="submit" value="Encriptar">
-                        <input class="btn2" type="submit" value="Desencriptar">
+                        <!--<input class="btn1" type="submit" value="Encriptar">
+                        <input class="btn2" type="submit" value="Desencriptar"> -->
+                        <button class="btn1" id="btn-encriptar" >Encriptar</button>
+                        <button class="btn2" id="btn-desencriptar" >Desencriptar</button>
                     </div>
                 </div>
                 <!--Seccion para mostrar resultados-->
                 <div class="resultados-area">
-                    <textarea class="resul-textarea  " name="" id="" cols="30" rows="10" placeholder="No se ha encontrado ningun texto"></textarea>
+                    <textarea class="resul-textarea " name="" id="" cols="30" rows="10" placeholder="No se ha encontrado ningun texto"></textarea>
                     <input class="boton-copiar" type="submit" value="Copiar">
                 </div>
             </div>
@@ -49,7 +52,7 @@
         <p>Nataly Sarahi Rodriguez Dominguez || Oracle || Grupo 5</p>
     </footer>
     
-    
+    <script src="script.js"></script>
     
 </body>
 </html>
