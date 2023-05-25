@@ -112,7 +112,7 @@ footer{
     gap:1rem;
 }*/
 
-@media (min-width:468px){
+@media (min-width:368px){
     .botones{
         display: flex;
         flex-direction: column;
