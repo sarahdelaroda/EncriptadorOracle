@@ -19,3 +19,10 @@ function encriptar (){
     var boton2 = document.querySelector("#btn-desencriptar");
     boton2.onclick = desencriptar;
     
+    //funcion de copiado
+    const btnCopiar = document.querySelector(".boton-copiar");
+    
+        btnCopiar.addEventListener("click", copiar = () => {
+        var contenido=document.querySelector("#salida-texto").textContent;
+        navigator.clipboard.writeText(contenido);
+    })
